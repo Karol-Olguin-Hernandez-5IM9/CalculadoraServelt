@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Calculadora hot</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style type="text/css">
+            @import url("Csshot.css");
+        </style>
+        <link href='https://fonts.googleapis.com/css?family=Sonsie One' rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Audiowide' rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Krona One' rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Exo 2' rel="stylesheet">
+        <link href='https://fonts.googleapis.com/css?family=Exo' rel='stylesheet'>
+    </head>
+    <body>
+        <div>
+            <form method="POST" action='ServeltCal'>
+            <center>
+                <h2>Inserta los numeros</h2><br>
+                <input type="number" name="Num1" class="No1">
+                <input type="number" name="Num2" class="No2"><br>
+                <h2>Seleccione la Operación</h2><br><br><br>
+                <select name="Operaciones" class="Operacion">
+                    <option>Usted escoja </option>
+                    <option>Suma </option>
+                    <option>Resta </option>
+                    <option>Division </option>
+                    <option>Multiplicacion </option>
+                    <option>Potencia</option>
+                    <option>Cos</option>
+                    <option>Sen</option>
+                    <option>Tan </option>
+                    <option>Log</option>
+                    <option>Exp</option>
+                </select><br><br><br>
+                <input type="submit" name="Aceptar" class="Aceptar">
+            </center>
+            </form>
+        </div>
+    </body>
+</html>
